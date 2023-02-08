@@ -1,0 +1,126 @@
+html {
+    box-sizing: border-box;
+ 
+}
+html *, html * ::before, html * ::after, html * ::before, html * ::after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-weight: normal;
+    font-size: 100%;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+dl,
+dd,
+menu,
+ul {
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+ol {
+    list-style-type: decimal;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    position: relative;
+
+}
+
+.slider {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    transition: all 0.5s;
+    overflow: hidden;
+
+}
+
+.slider .slide {
+    width: 20%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.slider .slide:nth-child(1) {
+    background: url("https://1.bp.blogspot.com/-zdXH6oG0LCo/WdP2e0EBzsI/AAAAAAAAMis/gLW04W0p0SMp5LCIjTawIe44Zri8l-ffgCEwYBhgL/s1600/JSTLG+-+Profile_Batman_2765x4096.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    
+
+}
+
+.slider .slide:nth-child(2) {
+    background: url("https://4.bp.blogspot.com/-q6VR9XN_UNk/WdP2fnkjWVI/AAAAAAAAMi8/6tsPm2ESFKQc5ZMVvLmyHZHRud1NVoudACLcBGAs/s1600/JSTLG+-+Profile_Wonder+Woman_2765x4096.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.slider .slide:nth-child(3) {
+    background: url("https://4.bp.blogspot.com/-v7tJ0qPBBH0/WdP2ffDdRzI/AAAAAAAAMjA/xqx7M8QrgB0uOYg2jyy31rZ0SXs0ZGRhgCEwYBhgL/s1600/JSTLG+-+Profile_Flash_2765x4096.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.slider .slide:nth-child(4) {
+    background: url("https://4.bp.blogspot.com/-uHsK17yP_1A/WdP2e2zGn4I/AAAAAAAAMi0/e0IOoX8FyOAyI1BUKBBM1VTdtoic9YuAACEwYBhgL/s1600/JSTLG+-+Profile_Aquaman_2765x4096.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.slider .slide:nth-child(5) {
+    background: url("https://1.bp.blogspot.com/-RqI_s_J5sag/WdP2ey-WcqI/AAAAAAAAMjA/qI56RJoMGqAs_Iv8JetrGxDLkAznfnMFwCEwYBhgL/s1600/JSTLG+-+Profile_Cyborg_2765x4096.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.slider .slide:hover {
+    width: 60%;
+    cursor: pointer;
+}
